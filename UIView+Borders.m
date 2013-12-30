@@ -1,6 +1,5 @@
 //
 //  UIView+Borders.m
-//  Persona
 //
 //  Created by Aaron Ng on 12/28/13.
 //  Copyright (c) 2013 Delve. All rights reserved.
