@@ -23,3 +23,6 @@ Import "UIView+Borders.h" and call any of the following on your UIView, specifyi
     // Left Border
     -(void)addLeftBorderWithWidth: (CGFloat)width andColor:(UIColor*)color
     -(void)addViewBackedLeftBorderWithWidth: (CGFloat)width andColor:(UIColor*)color
+
+## Why One Sided Borders?
+One sided borders are an awesome tool for highlighting, recessing or separating various UI elements. For example, a light top-border with a dark bottom-border can be used to make something appear raised while a dark top-border makes the element look recessed. It's also handy for visually separating two views next to each other-- using a traditional layer border means doubling up on the width where the two views meet.
