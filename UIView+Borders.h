@@ -9,92 +9,79 @@
 
 @interface UIView (Borders)
 
-/** A method for adding a border to the top of an UIView via a CALayer. Use this when possible over the view-backed version for performance reasons.
- 
- Only one border can exist in each position.
- 
- @param height A float specifying the thickness of the border.
- @param color A UIColor specifying the color of the border.
- @see addViewBackedTopBorderWithHeight:andColor
+/* Create your borders and assign them to a property on a view when you can via the create methods when possible. Otherwise you might end up with multiple borders being created.
  */
+
+///------------
+/// Top Border
+///------------
+-(CALayer*)createTopBorderWithHeight: (CGFloat)height andColor:(UIColor*)color;
+-(UIView*)createViewBackedTopBorderWithHeight: (CGFloat)height andColor:(UIColor*)color;
 -(void)addTopBorderWithHeight:(CGFloat)height andColor:(UIColor*)color;
-
-
-/** A method for adding a border to the top of an UIView via another UIView. Use this if you can't use the layer-backed version for whatever reason.
- 
- Only one border can exist in each position.
- 
- @param height A float specifying the thickness of the border.
- @param color A UIColor specifying the color of the border.
- @see addTopBorderWithHeight:andColor
- */
 -(void)addViewBackedTopBorderWithHeight:(CGFloat)height andColor:(UIColor*)color;
 
 
-/** A method for adding a border to the top of an UIView via a CALayer. Use this when possible over the view-backed version for performance reasons.
- 
- Only one border can exist in each position.
- 
- @param width A float specifying the thickness of the border.
- @param color A UIColor specifying the color of the border.
- @see addViewBackedRightBorderWithHeight:andColor
- */
+///------------
+/// Top Border + Offsets
+///------------
+
+-(CALayer*)createTopBorderWithHeight: (CGFloat)height color:(UIColor*)color leftOffset:(CGFloat)leftOffset rightOffset:(CGFloat)rightOffset andTopOffset:(CGFloat)topOffset;
+-(UIView*)createViewBackedTopBorderWithHeight: (CGFloat)height color:(UIColor*)color leftOffset:(CGFloat)leftOffset rightOffset:(CGFloat)rightOffset andTopOffset:(CGFloat)topOffset;
+-(void)addTopBorderWithHeight: (CGFloat)height color:(UIColor*)color leftOffset:(CGFloat)leftOffset rightOffset:(CGFloat)rightOffset andTopOffset:(CGFloat)topOffset;
+-(void)addViewBackedTopBorderWithHeight: (CGFloat)height color:(UIColor*)color leftOffset:(CGFloat)leftOffset rightOffset:(CGFloat)rightOffset andTopOffset:(CGFloat)topOffset;
+
+///------------
+/// Right Border
+///------------
+
+-(CALayer*)createRightBorderWithWidth: (CGFloat)width andColor:(UIColor*)color;
+-(UIView*)createViewBackedRightBorderWithWidth: (CGFloat)width andColor:(UIColor*)color;
 -(void)addRightBorderWithWidth: (CGFloat)width andColor:(UIColor*)color;
-
-
-/** A method for adding a border to the top of an UIView via another UIView. Use this if you can't use the layer-backed version for whatever reason.
- 
- Only one border can exist in each position.
- 
- @param width A float specifying the thickness of the border.
- @param color A UIColor specifying the color of the border.
- @see addRightBorderWithWidth:andColor
- */
 -(void)addViewBackedRightBorderWithWidth: (CGFloat)width andColor:(UIColor*)color;
 
+///------------
+/// Right Border + Offsets
+///------------
 
-/** A method for adding a border to the top of an UIView via a CALayer. Use this when possible over the view-backed version for performance reasons.
- 
- Only one border can exist in each position.
- 
- @param height A float specifying the thickness of the border.
- @param color A UIColor specifying the color of the border.
- @see addViewBackedBottomBorderWithHeight:andColor
- */
+-(CALayer*)createRightBorderWithWidth: (CGFloat)width color:(UIColor*)color rightOffset:(CGFloat)rightOffset topOffset:(CGFloat)topOffset andBottomOffset:(CGFloat)bottomOffset;
+-(UIView*)createViewBackedRightBorderWithWidth: (CGFloat)width color:(UIColor*)color rightOffset:(CGFloat)rightOffset topOffset:(CGFloat)topOffset andBottomOffset:(CGFloat)bottomOffset;
+-(void)addRightBorderWithWidth: (CGFloat)width color:(UIColor*)color rightOffset:(CGFloat)rightOffset topOffset:(CGFloat)topOffset andBottomOffset:(CGFloat)bottomOffset;
+-(void)addViewBackedRightBorderWithWidth: (CGFloat)width color:(UIColor*)color rightOffset:(CGFloat)rightOffset topOffset:(CGFloat)topOffset andBottomOffset:(CGFloat)bottomOffset;
+
+///------------
+/// Bottom Border
+///------------
+
+-(CALayer*)createBottomBorderWithHeight: (CGFloat)height andColor:(UIColor*)color;
+-(UIView*)createViewBackedBottomBorderWithHeight: (CGFloat)height andColor:(UIColor*)color;
 -(void)addBottomBorderWithHeight:(CGFloat)height andColor:(UIColor*)color;
-
-
-/** A method for adding a border to the top of an UIView via another UIView. Use this if you can't use the layer-backed version for whatever reason.
- 
- Only one border can exist in each position.
- 
- @param height A float specifying the thickness of the border.
- @param color A UIColor specifying the color of the border.
- @see addBottomBorderWithHeight:andColor
- */
 -(void)addViewBackedBottomBorderWithHeight:(CGFloat)height andColor:(UIColor*)color;
 
+///------------
+/// Bottom Border + Offsets
+///------------
 
-/** A method for adding a border to the left of an UIView via a CALayer. Use this when possible over the view-backed version for performance reasons.
- 
- Only one border can exist in each position.
- 
- @param width A float specifying the thickness of the border.
- @param color A UIColor specifying the color of the border.
- @see addViewBackedLeftBorderWithHeight:andColor
- */
+-(CALayer*)createBottomBorderWithHeight: (CGFloat)height color:(UIColor*)color leftOffset:(CGFloat)leftOffset rightOffset:(CGFloat)rightOffset andBottomOffset:(CGFloat)bottomOffset;
+-(UIView*)createViewBackedBottomBorderWithHeight: (CGFloat)height color:(UIColor*)color leftOffset:(CGFloat)leftOffset rightOffset:(CGFloat)rightOffset andBottomOffset:(CGFloat)bottomOffset;
+-(void)addBottomBorderWithHeight: (CGFloat)height color:(UIColor*)color leftOffset:(CGFloat)leftOffset rightOffset:(CGFloat)rightOffset andBottomOffset:(CGFloat)bottomOffset;
+-(void)addViewBackedBottomBorderWithHeight: (CGFloat)height color:(UIColor*)color leftOffset:(CGFloat)leftOffset rightOffset:(CGFloat)rightOffset andBottomOffset:(CGFloat)bottomOffset;
+
+///------------
+/// Left Border
+///------------
+
+-(CALayer*)createLeftBorderWithWidth: (CGFloat)width andColor:(UIColor*)color;
+-(UIView*)createViewBackedLeftBorderWithWidth: (CGFloat)width andColor:(UIColor*)color;
 -(void)addLeftBorderWithWidth: (CGFloat)width andColor:(UIColor*)color;
-
-
-/** A method for adding a border to the left of an UIView via another UIView. Use this if you can't use the layer-backed version for whatever reason.
- 
- Only one border can exist in each position.
- 
- @param width A float specifying the thickness of the border.
- @param color A UIColor specifying the color of the border.
- @see addLeftBorderWithHeight:andColor
- */
 -(void)addViewBackedLeftBorderWithWidth: (CGFloat)width andColor:(UIColor*)color;
 
+///------------
+/// Left Border + Offsets
+///------------
+
+-(CALayer*)createLeftBorderWithWidth: (CGFloat)width color:(UIColor*)color leftOffset:(CGFloat)leftOffset topOffset:(CGFloat)topOffset andBottomOffset:(CGFloat)bottomOffset;
+-(UIView*)createViewBackedLeftBorderWithWidth: (CGFloat)width color:(UIColor*)color leftOffset:(CGFloat)leftOffset topOffset:(CGFloat)topOffset andBottomOffset:(CGFloat)bottomOffset;
+-(void)addLeftBorderWithWidth: (CGFloat)width color:(UIColor*)color leftOffset:(CGFloat)leftOffset topOffset:(CGFloat)topOffset andBottomOffset:(CGFloat)bottomOffset;
+-(void)addViewBackedLeftBorderWithWidth: (CGFloat)width color:(UIColor*)color leftOffset:(CGFloat)leftOffset topOffset:(CGFloat)topOffset andBottomOffset:(CGFloat)bottomOffset;
 
 @end
