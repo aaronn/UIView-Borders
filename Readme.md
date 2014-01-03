@@ -6,7 +6,7 @@
 Just add "UIView+Borders.h" and "UIView+Borders.m" to your project. 
 
 ## Usage
-Import "UIView+Borders.h" and call any of the following on your UIView, specifying the thickness and color to get a CALayer backed border which you can then set into a property. There are also UIView-backed versions: check out UIView+Borders.h.
+Import "UIView+Borders.h" and call any of the following on your UIView, specifying the thickness and color to get a CALayer backed border which you can then set into a property and add as a sublayer (or subview). There are also UIView-backed versions: check out UIView+Borders.h.
 
     // Top
     -(CALayer*)createTopBorderWithHeight: (CGFloat)height andColor:(UIColor*)color;
