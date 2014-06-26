@@ -1,0 +1,12 @@
+target 'UIView+Borders', :exclusive => true do
+  pod "UIView+Borders", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "UIView+Borders", :path => "../"
+
+  pod 'Specta', '~> 0.2.1'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'EXPMatchers+FBSnapshotTest'
+end

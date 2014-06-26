@@ -1,0 +1,28 @@
+PODS:
+  - Expecta (0.3.0)
+  - EXPMatchers+FBSnapshotTest (1.1.0):
+    - Expecta
+    - FBSnapshotTestCase
+  - FBSnapshotTestCase (1.1)
+  - Specta (0.2.1)
+  - UIView+Borders (0.1.0)
+
+DEPENDENCIES:
+  - Expecta
+  - EXPMatchers+FBSnapshotTest
+  - FBSnapshotTestCase
+  - Specta (~> 0.2.1)
+  - UIView+Borders (from `../`)
+
+EXTERNAL SOURCES:
+  UIView+Borders:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Expecta: ce8a51b9fad15a2cd573b291cb2909aaed865350
+  EXPMatchers+FBSnapshotTest: fcc428d6a5d4410c1711aeda4456c9c5e93f98d3
+  FBSnapshotTestCase: 9053afee1d66b4c7c313fcb0ae582a5e47bea9d0
+  Specta: 9141310f46b1f68b676650ff2854e1ed0b74163a
+  UIView+Borders: ef4c1ccae781c37d8072c72f46f30624553397c1
+
+COCOAPODS: 0.33.1
