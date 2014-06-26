@@ -7,7 +7,7 @@
 UIView+Borders is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-    pod "UIView+Borders"
+    pod "UIView+Borders", :git => 'https://github.com/chrisfsampaio/UIView-Borders.git'
   
 ________________
 ... Not a big fan of Cocoapods? Really?  
