@@ -3,7 +3,14 @@
 **Add borders to everything!** A quick and simple UIView category to add one-sided borders to your UIViews. Supports both layer-backed borders and UIView backed borders, if layers aren't possible. Supports one-sided borders with offset amounts for top, right, bottom and left sides!
 
 ## Installation
+
+### Without Cocoapods
+
 Just add "UIView+Borders.h" and "UIView+Borders.m" to your project. 
+
+### With Cocoapods
+
+Add `pod 'UIView+Borders'` to your podfile; then run `pod update`.
 
 ## Usage
 Import "UIView+Borders.h" and call any of the following on your UIView, specifying the thickness and color to get a CALayer backed border which you can then set into a property and add as a sublayer (or subview). There are also UIView-backed versions: check out UIView+Borders.h.
