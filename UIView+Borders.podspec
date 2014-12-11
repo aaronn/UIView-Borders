@@ -4,21 +4,18 @@ Pod::Spec.new do |s|
   s.summary      = "Easy one-sided and offset borders on all UIViews."
   s.homepage     = "https://github.com/aaronn/UIView-Borders"
   
-  #s.license      = { :type => 'UNSPECIFIED', :file => 'LICENSE' }
+  s.license      = { :type => 'MIT', :file => 'LICENSE' }
 
   s.author       = { "Aaron Ng" => "hi@aaron.ng" }
   s.source       = {
-    :git => "https://github.com/yichizhang/UIView-Borders",
+    :git => "https://github.com/yichizhang/UIView-Borders.git",
     :tag => s.version.to_s
   }
 
   s.platform     = :ios, '6.0'
   s.requires_arc = true
 
-  s.source_files = 'Source/*.{h,m}'
-  #s.resources    = 'RES.bundle'
-
-  #s.dependency 'dependency'
+  s.source_files = '*.{h,m}'
   s.framework  = 'Foundation', 'UIKit'
 
 end
