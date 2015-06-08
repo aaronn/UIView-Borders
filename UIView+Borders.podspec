@@ -9,4 +9,5 @@ Pod::Spec.new do |s|
   s.social_media_url   = "http://twitter.com/aaronykng"
   s.source       = { :git => "https://github.com/aaronn/UIView-Borders.git", :tag => "0.0.1" }
   s.source_files  = "UIView+Borders.{h,m}"
+  s.platform     = :ios
 end
