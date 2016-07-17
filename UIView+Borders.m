@@ -12,15 +12,6 @@
 
 @interface UIView ()
 
-@property (nonatomic, strong) CALayer *topBorder;
-@property (nonatomic, strong) CALayer *bottomBorder;
-@property (nonatomic, strong) CALayer *leftBorder;
-@property (nonatomic, strong) CALayer *rightBorder;
-
-@property (nonatomic, strong) UIView *vb_topBorder;
-@property (nonatomic, strong) UIView *vb_bottomBorder;
-@property (nonatomic, strong) UIView *vb_leftBorder;
-@property (nonatomic, strong) UIView *vb_rightBorder;
 
 @end
 
@@ -75,7 +66,7 @@
 }
 
 - (void)setVb_TopBorder:(UIView *)topBorder {
-    objc_setAssociatedObject(self, @selector(vb_topBorder), vb_topBorder, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+    objc_setAssociatedObject(self, @selector(vb_topBorder), topBorder, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
 - (UIView *)vb_bottomBorder {
@@ -83,7 +74,7 @@
 }
 
 - (void)setVb_BottomBorder:(UIView *)bottomBorder{
-    objc_setAssociatedObject(self, @selector(vb_bottomBorder), vb_bottomBorder, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+    objc_setAssociatedObject(self, @selector(vb_bottomBorder), bottomBorder, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
 - (UIView *)vb_leftBorder {
@@ -91,7 +82,7 @@
 }
 
 - (void)setVb_LeftBorder:(UIView *)leftBorder{
-    objc_setAssociatedObject(self, @selector(vb_leftBorder), vb_leftBorder, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+    objc_setAssociatedObject(self, @selector(vb_leftBorder), leftBorder, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
 - (UIView *)vb_rightBorder {
@@ -99,7 +90,7 @@
 }
 
 - (void)setVb_RightBorder:(UIView *)rightBorder{
-    objc_setAssociatedObject(self, @selector(vb_rightBorder), vb_rightBorder, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+    objc_setAssociatedObject(self, @selector(vb_rightBorder), rightBorder, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
 #pragma mark - Top
@@ -156,7 +147,7 @@
     [self.vb_topBorder removeFromSuperview];
     
     self.vb_topBorder = [self createViewBackedTopBorderWithHeight:height color:color leftOffset:leftOffset rightOffset:rightOffset andTopOffset:topOffset];
-    [self addSubview:border];
+    [self addSubview:self.vb_topBorder];
 }
 
 #pragma mark - Right
@@ -210,7 +201,7 @@
 }
 
 -(void)addViewBackedRightBorderWithWidth: (CGFloat)width color:(UIColor*)color rightOffset:(CGFloat)rightOffset topOffset:(CGFloat)topOffset andBottomOffset:(CGFloat)bottomOffset{
-    [self.vb_rightBorder removeFromSuperview]
+    [self.vb_rightBorder removeFromSuperview];
 
     self.vb_rightBorder = [self createViewBackedRightBorderWithWidth:width color:color rightOffset:rightOffset topOffset:topOffset andBottomOffset:bottomOffset];
     [self addSubview:self.vb_rightBorder];

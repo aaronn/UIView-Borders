@@ -9,6 +9,16 @@
 
 @interface UIView (Borders)
 
+@property (nonatomic, strong) CALayer *topBorder;
+@property (nonatomic, strong) CALayer *bottomBorder;
+@property (nonatomic, strong) CALayer *leftBorder;
+@property (nonatomic, strong) CALayer *rightBorder;
+
+@property (nonatomic, strong) UIView *vb_topBorder;
+@property (nonatomic, strong) UIView *vb_bottomBorder;
+@property (nonatomic, strong) UIView *vb_leftBorder;
+@property (nonatomic, strong) UIView *vb_rightBorder;
+
 /* Create your borders and assign them to a property on a view when you can via the create methods when possible. Otherwise you might end up with multiple borders being created.
  */
 
