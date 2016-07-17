@@ -65,7 +65,7 @@
     return objc_getAssociatedObject(self, @selector(vb_topBorder));
 }
 
-- (void)setVb_TopBorder:(UIView *)topBorder {
+- (void)setVb_topBorder:(UIView *)topBorder {
     objc_setAssociatedObject(self, @selector(vb_topBorder), topBorder, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
@@ -73,7 +73,7 @@
     return objc_getAssociatedObject(self, @selector(vb_bottomBorder));
 }
 
-- (void)setVb_BottomBorder:(UIView *)bottomBorder{
+- (void)setVb_bottomBorder:(UIView *)bottomBorder{
     objc_setAssociatedObject(self, @selector(vb_bottomBorder), bottomBorder, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
@@ -81,7 +81,7 @@
     return objc_getAssociatedObject(self, @selector(vb_leftBorder));
 }
 
-- (void)setVb_LeftBorder:(UIView *)leftBorder{
+- (void)setVb_leftBorder:(UIView *)leftBorder{
     objc_setAssociatedObject(self, @selector(vb_leftBorder), leftBorder, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
@@ -89,7 +89,7 @@
     return objc_getAssociatedObject(self, @selector(vb_rightBorder));
 }
 
-- (void)setVb_RightBorder:(UIView *)rightBorder{
+- (void)setVb_rightBorder:(UIView *)rightBorder{
     objc_setAssociatedObject(self, @selector(vb_rightBorder), rightBorder, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
