@@ -19,7 +19,8 @@
 -(UIView*)createViewBackedTopBorderWithHeight: (CGFloat)height andColor:(UIColor*)color;
 -(void)addTopBorderWithHeight:(CGFloat)height andColor:(UIColor*)color;
 -(void)addViewBackedTopBorderWithHeight:(CGFloat)height andColor:(UIColor*)color;
-
+- (void)removeTopBorder;
+- (void)removeViewBackedTopBorder;
 
 ///------------
 /// Top Border + Offsets
@@ -38,6 +39,8 @@
 -(UIView*)createViewBackedRightBorderWithWidth: (CGFloat)width andColor:(UIColor*)color;
 -(void)addRightBorderWithWidth: (CGFloat)width andColor:(UIColor*)color;
 -(void)addViewBackedRightBorderWithWidth: (CGFloat)width andColor:(UIColor*)color;
+- (void)removeRightBorder;
+- (void)removeViewBackedRightBorder;
 
 ///------------
 /// Right Border + Offsets
@@ -56,6 +59,8 @@
 -(UIView*)createViewBackedBottomBorderWithHeight: (CGFloat)height andColor:(UIColor*)color;
 -(void)addBottomBorderWithHeight:(CGFloat)height andColor:(UIColor*)color;
 -(void)addViewBackedBottomBorderWithHeight:(CGFloat)height andColor:(UIColor*)color;
+- (void)removeBottomBorder;
+- (void)removeViewBackedBottomBorder;
 
 ///------------
 /// Bottom Border + Offsets
@@ -74,6 +79,8 @@
 -(UIView*)createViewBackedLeftBorderWithWidth: (CGFloat)width andColor:(UIColor*)color;
 -(void)addLeftBorderWithWidth: (CGFloat)width andColor:(UIColor*)color;
 -(void)addViewBackedLeftBorderWithWidth: (CGFloat)width andColor:(UIColor*)color;
+- (void)removeLeftBorder;
+- (void)removeViewBackedLeftBorder;
 
 ///------------
 /// Left Border + Offsets

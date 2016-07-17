@@ -119,6 +119,14 @@
     [self addViewBackedTopBorderWithHeight:height color:color leftOffset:0 rightOffset:0 andTopOffset:0];
 }
 
+- (void)removeTopBorder {
+    [self.topBorder removeFromSuperlayer];
+}
+
+- (void)removeViewBackedTopBorder {
+    [self.vb_topBorder removeFromSuperview];
+}
+
 #pragma mark - Top + Offset
 -(CALayer*)createTopBorderWithHeight: (CGFloat)height color:(UIColor*)color leftOffset:(CGFloat)leftOffset rightOffset:(CGFloat)rightOffset andTopOffset:(CGFloat)topOffset {
     // Subtract the bottomOffset from the height and the thickness to get our final y position.
@@ -162,6 +170,14 @@
 
 -(void)addRightBorderWithWidth: (CGFloat)width andColor:(UIColor*)color{
     [self addRightBorderWithWidth:width color:color rightOffset:0 topOffset:0 andBottomOffset:0];
+}
+
+- (void)removeRightBorder {
+    [self.rightBorder removeFromSuperlayer];
+}
+
+- (void)removeViewBackedRightBorder {
+    [self.vb_rightBorder removeFromSuperview];
 }
 
 -(void)addViewBackedRightBorderWithWidth: (CGFloat)width andColor:(UIColor*)color{
@@ -217,6 +233,14 @@
     [self addViewBackedBottomBorderWithHeight:height color:color leftOffset:0 rightOffset:0 andBottomOffset:0];
 }
 
+- (void)removeBottomBorder {
+    [self.bottomBorder removeFromSuperlayer];
+}
+
+- (void)removeViewBackedBottomBorder {
+    [self.vb_bottomBorder removeFromSuperview];
+}
+
 #pragma mark - Bottom + Offset
 -(CALayer*)createBottomBorderWithHeight: (CGFloat)height color:(UIColor*)color leftOffset:(CGFloat)leftOffset rightOffset:(CGFloat)rightOffset andBottomOffset:(CGFloat)bottomOffset {
     // Subtract the bottomOffset from the height and the thickness to get our final y position.
@@ -263,6 +287,14 @@
 
 -(void)addViewBackedLeftBorderWithWidth: (CGFloat)width andColor:(UIColor*)color{
     [self addViewBackedLeftBorderWithWidth:width color:color leftOffset:0 topOffset:0 andBottomOffset:0];
+}
+
+- (void)removeLeftBorder {
+    [self.leftBorder removeFromSuperlayer];
+}
+
+- (void)removeViewBackedLeftBorder {
+    [self.vb_leftBorder removeFromSuperview];
 }
 
 #pragma mark - Left + Offset
