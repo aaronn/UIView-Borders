@@ -1,5 +1,7 @@
 # UIView+Borders
 
+**(Updated For Swift 3)[https://github.com/aaronn/UIView-Borders-Swift]**
+
 **Add borders to everything!** A quick and simple UIView category to add one-sided borders to your UIViews. Supports both layer-backed borders and UIView backed borders, if layers aren't possible. Supports one-sided borders with offset amounts for top, right, bottom and left sides!
 
 ## Installation
