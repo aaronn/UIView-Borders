@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19F4ED6F1E89A1420073DD75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F4ED6E1E89A1420073DD75 /* AppDelegate.swift */; };
+		19F4ED711E89A1420073DD75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F4ED701E89A1420073DD75 /* ViewController.swift */; };
+		19F4ED741E89A1420073DD75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19F4ED721E89A1420073DD75 /* Main.storyboard */; };
+		19F4ED771E89A1420073DD75 /* UIView_Borders.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 19F4ED751E89A1420073DD75 /* UIView_Borders.xcdatamodeld */; };
+		19F4ED791E89A1420073DD75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19F4ED781E89A1420073DD75 /* Assets.xcassets */; };
+		19F4ED7C1E89A1420073DD75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19F4ED7A1E89A1420073DD75 /* LaunchScreen.storyboard */; };
+		19F4ED871E89A1430073DD75 /* UIView_BordersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F4ED861E89A1430073DD75 /* UIView_BordersTests.swift */; };
+		19F4ED921E89A1430073DD75 /* UIView_BordersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F4ED911E89A1430073DD75 /* UIView_BordersUITests.swift */; };
+		19F4EDA01E89A1770073DD75 /* UIView+Borders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F4ED9F1E89A1770073DD75 /* UIView+Borders.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19F4ED831E89A1430073DD75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19F4ED631E89A1420073DD75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19F4ED6A1E89A1420073DD75;
+			remoteInfo = "UIView-Borders";
+		};
+		19F4ED8E1E89A1430073DD75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19F4ED631E89A1420073DD75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19F4ED6A1E89A1420073DD75;
+			remoteInfo = "UIView-Borders";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19F4ED6B1E89A1420073DD75 /* UIView-Borders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIView-Borders.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19F4ED6E1E89A1420073DD75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		19F4ED701E89A1420073DD75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		19F4ED731E89A1420073DD75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19F4ED761E89A1420073DD75 /* UIView_Borders.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UIView_Borders.xcdatamodel; sourceTree = "<group>"; };
+		19F4ED781E89A1420073DD75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19F4ED7B1E89A1420073DD75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19F4ED7D1E89A1420073DD75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19F4ED821E89A1430073DD75 /* UIView-BordersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIView-BordersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19F4ED861E89A1430073DD75 /* UIView_BordersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView_BordersTests.swift; sourceTree = "<group>"; };
+		19F4ED881E89A1430073DD75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19F4ED8D1E89A1430073DD75 /* UIView-BordersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIView-BordersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19F4ED911E89A1430073DD75 /* UIView_BordersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView_BordersUITests.swift; sourceTree = "<group>"; };
+		19F4ED931E89A1430073DD75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19F4ED9F1E89A1770073DD75 /* UIView+Borders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Borders.swift"; path = "UIView-Borders/UIView+Borders.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19F4ED681E89A1420073DD75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19F4ED7F1E89A1430073DD75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19F4ED8A1E89A1430073DD75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19F4ED621E89A1420073DD75 = {
+			isa = PBXGroup;
+			children = (
+				19F4ED9F1E89A1770073DD75 /* UIView+Borders.swift */,
+				19F4ED6D1E89A1420073DD75 /* UIView-Borders */,
+				19F4ED851E89A1430073DD75 /* UIView-BordersTests */,
+				19F4ED901E89A1430073DD75 /* UIView-BordersUITests */,
+				19F4ED6C1E89A1420073DD75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19F4ED6C1E89A1420073DD75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19F4ED6B1E89A1420073DD75 /* UIView-Borders.app */,
+				19F4ED821E89A1430073DD75 /* UIView-BordersTests.xctest */,
+				19F4ED8D1E89A1430073DD75 /* UIView-BordersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19F4ED6D1E89A1420073DD75 /* UIView-Borders */ = {
+			isa = PBXGroup;
+			children = (
+				19F4ED6E1E89A1420073DD75 /* AppDelegate.swift */,
+				19F4ED701E89A1420073DD75 /* ViewController.swift */,
+				19F4ED721E89A1420073DD75 /* Main.storyboard */,
+				19F4ED781E89A1420073DD75 /* Assets.xcassets */,
+				19F4ED7A1E89A1420073DD75 /* LaunchScreen.storyboard */,
+				19F4ED7D1E89A1420073DD75 /* Info.plist */,
+				19F4ED751E89A1420073DD75 /* UIView_Borders.xcdatamodeld */,
+			);
+			path = "UIView-Borders";
+			sourceTree = "<group>";
+		};
+		19F4ED851E89A1430073DD75 /* UIView-BordersTests */ = {
+			isa = PBXGroup;
+			children = (
+				19F4ED861E89A1430073DD75 /* UIView_BordersTests.swift */,
+				19F4ED881E89A1430073DD75 /* Info.plist */,
+			);
+			path = "UIView-BordersTests";
+			sourceTree = "<group>";
+		};
+		19F4ED901E89A1430073DD75 /* UIView-BordersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				19F4ED911E89A1430073DD75 /* UIView_BordersUITests.swift */,
+				19F4ED931E89A1430073DD75 /* Info.plist */,
+			);
+			path = "UIView-BordersUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19F4ED6A1E89A1420073DD75 /* UIView-Borders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19F4ED961E89A1430073DD75 /* Build configuration list for PBXNativeTarget "UIView-Borders" */;
+			buildPhases = (
+				19F4ED671E89A1420073DD75 /* Sources */,
+				19F4ED681E89A1420073DD75 /* Frameworks */,
+				19F4ED691E89A1420073DD75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIView-Borders";
+			productName = "UIView-Borders";
+			productReference = 19F4ED6B1E89A1420073DD75 /* UIView-Borders.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19F4ED811E89A1430073DD75 /* UIView-BordersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19F4ED991E89A1430073DD75 /* Build configuration list for PBXNativeTarget "UIView-BordersTests" */;
+			buildPhases = (
+				19F4ED7E1E89A1430073DD75 /* Sources */,
+				19F4ED7F1E89A1430073DD75 /* Frameworks */,
+				19F4ED801E89A1430073DD75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19F4ED841E89A1430073DD75 /* PBXTargetDependency */,
+			);
+			name = "UIView-BordersTests";
+			productName = "UIView-BordersTests";
+			productReference = 19F4ED821E89A1430073DD75 /* UIView-BordersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		19F4ED8C1E89A1430073DD75 /* UIView-BordersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19F4ED9C1E89A1430073DD75 /* Build configuration list for PBXNativeTarget "UIView-BordersUITests" */;
+			buildPhases = (
+				19F4ED891E89A1430073DD75 /* Sources */,
+				19F4ED8A1E89A1430073DD75 /* Frameworks */,
+				19F4ED8B1E89A1430073DD75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19F4ED8F1E89A1430073DD75 /* PBXTargetDependency */,
+			);
+			name = "UIView-BordersUITests";
+			productName = "UIView-BordersUITests";
+			productReference = 19F4ED8D1E89A1430073DD75 /* UIView-BordersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19F4ED631E89A1420073DD75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "MING Technology";
+				TargetAttributes = {
+					19F4ED6A1E89A1420073DD75 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = X4USQ3CZ9A;
+						ProvisioningStyle = Automatic;
+					};
+					19F4ED811E89A1430073DD75 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = X4USQ3CZ9A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 19F4ED6A1E89A1420073DD75;
+					};
+					19F4ED8C1E89A1430073DD75 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = X4USQ3CZ9A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 19F4ED6A1E89A1420073DD75;
+					};
+				};
+			};
+			buildConfigurationList = 19F4ED661E89A1420073DD75 /* Build configuration list for PBXProject "UIView-Borders" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19F4ED621E89A1420073DD75;
+			productRefGroup = 19F4ED6C1E89A1420073DD75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19F4ED6A1E89A1420073DD75 /* UIView-Borders */,
+				19F4ED811E89A1430073DD75 /* UIView-BordersTests */,
+				19F4ED8C1E89A1430073DD75 /* UIView-BordersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19F4ED691E89A1420073DD75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19F4ED7C1E89A1420073DD75 /* LaunchScreen.storyboard in Resources */,
+				19F4ED791E89A1420073DD75 /* Assets.xcassets in Resources */,
+				19F4ED741E89A1420073DD75 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19F4ED801E89A1430073DD75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19F4ED8B1E89A1430073DD75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19F4ED671E89A1420073DD75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19F4EDA01E89A1770073DD75 /* UIView+Borders.swift in Sources */,
+				19F4ED711E89A1420073DD75 /* ViewController.swift in Sources */,
+				19F4ED6F1E89A1420073DD75 /* AppDelegate.swift in Sources */,
+				19F4ED771E89A1420073DD75 /* UIView_Borders.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19F4ED7E1E89A1430073DD75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19F4ED871E89A1430073DD75 /* UIView_BordersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19F4ED891E89A1430073DD75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19F4ED921E89A1430073DD75 /* UIView_BordersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19F4ED841E89A1430073DD75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19F4ED6A1E89A1420073DD75 /* UIView-Borders */;
+			targetProxy = 19F4ED831E89A1430073DD75 /* PBXContainerItemProxy */;
+		};
+		19F4ED8F1E89A1430073DD75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19F4ED6A1E89A1420073DD75 /* UIView-Borders */;
+			targetProxy = 19F4ED8E1E89A1430073DD75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19F4ED721E89A1420073DD75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19F4ED731E89A1420073DD75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19F4ED7A1E89A1420073DD75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19F4ED7B1E89A1420073DD75 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19F4ED941E89A1430073DD75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19F4ED951E89A1430073DD75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19F4ED971E89A1430073DD75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X4USQ3CZ9A;
+				INFOPLIST_FILE = "UIView-Borders/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.mingtech.UIView-Borders";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		19F4ED981E89A1430073DD75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X4USQ3CZ9A;
+				INFOPLIST_FILE = "UIView-Borders/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.mingtech.UIView-Borders";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		19F4ED9A1E89A1430073DD75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X4USQ3CZ9A;
+				INFOPLIST_FILE = "UIView-BordersTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.mingtech.UIView-BordersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIView-Borders.app/UIView-Borders";
+			};
+			name = Debug;
+		};
+		19F4ED9B1E89A1430073DD75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X4USQ3CZ9A;
+				INFOPLIST_FILE = "UIView-BordersTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.mingtech.UIView-BordersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIView-Borders.app/UIView-Borders";
+			};
+			name = Release;
+		};
+		19F4ED9D1E89A1430073DD75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = X4USQ3CZ9A;
+				INFOPLIST_FILE = "UIView-BordersUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.mingtech.UIView-BordersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "UIView-Borders";
+			};
+			name = Debug;
+		};
+		19F4ED9E1E89A1430073DD75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = X4USQ3CZ9A;
+				INFOPLIST_FILE = "UIView-BordersUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.mingtech.UIView-BordersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "UIView-Borders";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19F4ED661E89A1420073DD75 /* Build configuration list for PBXProject "UIView-Borders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19F4ED941E89A1430073DD75 /* Debug */,
+				19F4ED951E89A1430073DD75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19F4ED961E89A1430073DD75 /* Build configuration list for PBXNativeTarget "UIView-Borders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19F4ED971E89A1430073DD75 /* Debug */,
+				19F4ED981E89A1430073DD75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		19F4ED991E89A1430073DD75 /* Build configuration list for PBXNativeTarget "UIView-BordersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19F4ED9A1E89A1430073DD75 /* Debug */,
+				19F4ED9B1E89A1430073DD75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		19F4ED9C1E89A1430073DD75 /* Build configuration list for PBXNativeTarget "UIView-BordersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19F4ED9D1E89A1430073DD75 /* Debug */,
+				19F4ED9E1E89A1430073DD75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		19F4ED751E89A1420073DD75 /* UIView_Borders.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				19F4ED761E89A1420073DD75 /* UIView_Borders.xcdatamodel */,
+			);
+			currentVersion = 19F4ED761E89A1420073DD75 /* UIView_Borders.xcdatamodel */;
+			path = UIView_Borders.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 19F4ED631E89A1420073DD75 /* Project object */;
+}
